@@ -1,6 +1,6 @@
 package at.htl;
 
-public class User_Message extends Message{
+public class OwnerMessage extends Message{
     User sender;
     User receiver;
 }
