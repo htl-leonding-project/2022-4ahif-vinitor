@@ -1,0 +1,60 @@
+= Vinitor - Support Platform
+Anna Hartl, Sheila Hautzmayer
+1.0
+:sourcedir: ../src/main/java
+:icons: font
+:toc: left
+:sectnums:
+
+== Project Manual
+
+=== Contractor
+
+The contractor of the project is the company Vinitor, especially Julian Hautzmayer and Matthias Böhm.
+The supervisors of this school project are Prof. Thomas Stütz and Prof. Michael Bucek.
+
+=== Project Members
+
+The project team consists of Sheila Hautzmayer and Anna Hartl.
+
+==== Sheila Hautzmayer
+
+*Responsibilities*
+
+* Project leader
+* Organisation
+* Frontend
+* Backend
+
+
+
+==== Anna Hartl
+
+*Responsibilities*
+
+* Organisation
+* Backend
+* Frontend
+
+image::images/AnnaHartl.jpg[Anna Hartl, width="200px", height="650px"]
+
+
+
+////
+=== Youtrack-Diagram-Gantt
+image::youtrack-diagram-gantt.png[Youtrack-Diagram-Gantt]
+////
+
+
+////
+=== GANTT-Diagramm
+[plantuml,gantt-protoype,png]
+----
+@startuml
+[Deactivate Monitoring] lasts 3 days
+[System Summary] lasts 4 days
+[Get Notified] starts at [System Summary]'s end
+[Get Notified] lasts 4 days
+@enduml
+----
+////

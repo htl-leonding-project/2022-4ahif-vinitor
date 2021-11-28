@@ -1,0 +1,29 @@
+= VINITOR - Support Platform
+Anna Hartl, Sheila Hautzmayer
+1.0
+:sourcedir: ../src/main/java
+:icons: font
+:toc: left
+:sectnums:
+
+== System Specification
+
+include::https://htl-leonding-project.github.io/2022-4ahif-vinitor/system_specification.html[Take a look at our system specification]
+
+== Draft
+
+include::https://htl-leonding-project.github.io/2022-4ahif-vinitor/draft.html[Take a look at our draft]
+
+== Project Manual
+
+include::https://htl-leonding-project.github.io/2022-4ahif-vinitor/project_manual.html[Take a look at our project manual]
+
+
+== Protocol
+
+include::https://htl-leonding-project.github.io/2022-4ahif-vinitor/protocol.html[Take a look at our protocol]
+
+
+
+
+

@@ -1,0 +1,46 @@
+= Vinitor - Support Platform
+Anna Hartl, Sheila Hautzmayer
+1.0
+:sourcedir: ../src/main/java
+:icons: font
+:toc: left
+
+
+== Protocol
+
+=== 2021-11-23
+
+[%autowidth, cols=2*]
+|===
+
+|Participants
+|Sheila Hautzmayer, Anna Hartl, Julian Hautzmayer
+
+|From-To
+|SYP-Unterricht
+
+|Duration
+|150 minutes
+|===
+
+==== Summary
+* Created GitLab repositories
+* Worked on backend (DTOs, Repos, Services, Entities for User and Report)
+
+=== 2021-11-28
+
+[%autowidth, cols=2*]
+|===
+
+|Participants
+|Sheila Hautzmayer, Anna Hartl
+
+|From-To
+|13:00 - 15:30
+
+|Duration
+|150 minutes
+|===
+
+==== Summary
+* Worked on documentation and landing page

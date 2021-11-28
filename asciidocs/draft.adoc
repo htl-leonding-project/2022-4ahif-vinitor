@@ -1,0 +1,38 @@
+= VINITOR - Support Platform
+Anna Hartl, Sheila Hautzmayer
+1.0
+:sourcedir: ../src/main/java
+:icons: font
+:toc: left
+:sectnums:
+
+
+== Draft
+
+=== System Architecture
+
+[plantuml]
+----
+include::plantuml/system_architecture.puml[]
+----
+
+
+=== Use-case-diagrams
+
+[plantuml,align=left]
+----
+include::plantuml/use_case_customer.puml[]
+----
+[plantuml,align=left]
+----
+include::plantuml/use_case_owner.puml[]
+----
+
+
+////
+=== Youtrack-Diagram-Sprints
+image::youtrack-diagram-sprints.png[Youtrack-Diagram-Sprints]
+
+=== Youtrack-Diagram-Epic
+image::youtrack-diagram-epic.png[Youtrack-Diagram-Epic]////
+

@@ -1,34 +1,32 @@
-= Support Platform
-Hartl Anna, Hautzmayer Sheila
-1.0.1, 2021-01-28: Functional Specification Document
-ifndef::imagesdir[:imagesdir: images]
-:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
+= Vinitor - Support Platform
+Anna Hartl, Sheila Hautzmayer
+1.0
 :sourcedir: ../src/main/java
 :icons: font
-:sectnums:    // Nummerierung der Überschriften / section numbering
 :toc: left
-//Need this blank line after ifdef, don't know why...
-ifdef::backend-html5[]
+:sectnums:
 
-== Current State
+== System Specification
+
+=== Current State
 When customers have a problem with Vinitor they have to call or send an email to the owners.
 Owners inform their customers about news by sending out emails.
 
-== CLD
+=== CLD
 [plantuml,align=left]
 ----
 include::plantuml/cld_vinitor.puml[]
 ----
 
-== ERD
+=== ERD
 
 
-== Problem Definition
+=== Problem Definition
 The owners can not spread news and information to all their customers in an easy way. Emails can get lost and overseen by customers.
 Customers can not interact with each other. When a problem occurs often it has to be explained countless times.
 The owners are overwhelmed with the calls and emails.
 
-== Use-case-diagram
+=== Use-case-diagram
 [plantuml,align=left]
 ----
 include::plantuml/use_case_customer.puml[]
@@ -38,7 +36,7 @@ include::plantuml/use_case_customer.puml[]
 include::plantuml/use_case_owner.puml[]
 ----
 
-== Use-cases (Functional Requirements)
+=== Use-cases (Functional Requirements)
 * Users can log in/log out of the application
 * Users can report bugs
 * Users can upvote reported bugs
@@ -52,17 +50,17 @@ include::plantuml/use_case_owner.puml[]
 * Announcements can be connected with email and social media
 
 
-== Non Functional Requirements
+=== Non Functional Requirements
 * Security
 * Usability
 * Accessibility
 * Stability
 * Coexistence
 
-== Goal
+=== Goal
 The support platform should help with the cooperation and collaboration of customers and owners by simplifying the communication.
 
-== Framework
+=== Framework
 IDE: Intellij
 
 Programming Languages: Angular (Front end), Java (Back end)
@@ -73,7 +71,7 @@ VCS: GitHub
 
 Organization: YouTrack
 
-== Acceptance criteria
+=== Acceptance criteria
 Every use case needs to be fulfilled. The platform needs to run smoothly for every customer.
 
 
