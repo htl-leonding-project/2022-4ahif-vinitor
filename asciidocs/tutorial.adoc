@@ -1,0 +1,15 @@
+= Support Platform
+Hartl Anna, Hautzmayer Sheila
+1.0.1, 2021-01-28: Functional Specification Document
+ifndef::imagesdir[:imagesdir: images]
+:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
+:sourcedir: ../src/main/java
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+:toc: left
+//Need this blank line after ifdef, don't know why...
+ifdef::backend-html5[]
+
+== Docker
+
+sudo docker run -p 3306:3306 --name vinitor-mariadb -e MYSQL_ROOT_PASSWORD=schwammerl -d mariadb
