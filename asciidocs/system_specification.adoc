@@ -5,20 +5,47 @@ Anna Hartl, Sheila Hautzmayer
 :icons: font
 :toc: left
 :sectnums:
+:imagesdir:
+
 
 == System Specification
 
-=== Current State
+=== Business Analyses
 When customers have a problem with Vinitor they have to call or send an email to the owners.
 Owners inform their customers about news by sending out emails.
 
-=== CLD
+=== Market Research
+
+* https://otobo.de/de/open-source-ticketsystem/
+* https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiX_JfMue71AhUIjWgJHfR0AtwYABACGgJ3Zg&ohost=www.google.com&cid=CAESWOD2HanqdleCFP5R-khAdFjZU2R00sOJfevXuB0yPAKHpwWNBRoqEI6MV3baaEGDxtHezdMtYL_jP5C-OnDFpolZQ_a0hOXdx75UDBgUHYHHdcEHNA59uO0&sig=AOD64_1h683rwgOkvxRf8UFTwOVFYhmjaQ&q&adurl&ved=2ahUKEwiCxozMue71AhXGS_EDHUD3BMwQ0Qx6BAgEEAE
+* https://freshdesk.com/de/lp/kostenloses-ticketsystem/?tactic_id=3387461&utm_source=Google-AdWords&utm_medium=FD-ResellerEU-EU2-L-Search-Germany-Ticketing&utm_campaign=FD-ResellerEU-EU2-L-Search-Germany-Ticketing&utm_term=open%20source%20support%20ticket%20system&device=c&gclid=CjwKCAiAo4OQBhBBEiwA5KWu_wfJjGpnhYESaEIUAoVYcZbGbYH9gnqDtLmN4YxtATsIv58tJVxHbBoCdo8QAvD_BwE
+
+
+Vinitor wants to help their customers and show them how to use the software.
+To support them they want their self programmed website which
+
+* Helps users by answering user tickets
+* Acts as a social media system
+* Offers the users video material
+
+=== CLD 01
+
 [plantuml,align=left]
 ----
 include::plantuml/cld_vinitor.puml[]
 ----
 
-=== ERD
+=== CLD 02
+
+[plantuml,align=left]
+----
+include::plantuml/cld_vinitor_02.puml[]
+----
+
+
+=== Current State Of ERD
+
+image::images/cld2.png[]
 
 
 === Problem Definition

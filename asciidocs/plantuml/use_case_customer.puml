@@ -6,7 +6,6 @@ left to right direction
 
 rectangle Support-Platform{
 Customer -> (can report and upvote bugs)
- Customer --> (sent direct messages)
  Customer --> (watch tutorials and blogs)
  Customer --> (takes part in surveys)
  Customer --> (can comment and like)
