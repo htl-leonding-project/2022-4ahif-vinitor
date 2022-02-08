@@ -7,7 +7,8 @@ left to right direction
 
 rectangle Support-Platform{
  Owner ---> (see statistics of survey and bug report)
- Owner ---> (can announce features and events)
- Owner ---> (can comment on bug reports)
+ Owner ---> (announce features and events)
+ Owner ---> (comment on bug reports)
+ Owner ---> (comment on questions)
 }
 @enduml

@@ -5,9 +5,10 @@ left to right direction
 :Customer:
 
 rectangle Support-Platform{
-Customer -> (can report and upvote bugs)
+Customer -> (report bugs)
+Customer --> (ask questions)
  Customer --> (watch tutorials and blogs)
- Customer --> (takes part in surveys)
- Customer --> (can comment and like)
+ Customer --> (take part in surveys)
+ Customer --> (comment and like)
 }
 @enduml

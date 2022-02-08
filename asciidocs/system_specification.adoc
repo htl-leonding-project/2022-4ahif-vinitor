@@ -51,7 +51,7 @@ image::images/cld2.png[]
 
 === Problem Definition
 The owners can not spread news and information to all their customers in an easy way. Emails can get lost and overseen by customers.
-Customers can not interact with each other. When a problem occurs often it has to be explained countless times.
+Customers can not interact with each other.
 The owners are overwhelmed with the calls and emails.
 
 === Use-case-diagram
