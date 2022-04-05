@@ -1,4 +1,4 @@
-= Vinitor - Support Platform
+= Vicosu
 Anna Hartl, Sheila Hautzmayer
 1.3
 :sourcedir: ../src/main/java
@@ -216,3 +216,123 @@ Anna Hartl, Sheila Hautzmayer
 ==== Summary
 * Sprint 2 planned
 * Worked on feedback from merge request
+
+=== 2022-03-01
+
+[%autowidth, cols=2*]
+|===
+|Participants
+|Sheila Hautzmayer, Anna Hartl
+
+|From-To
+|14:50 - 17:00
+
+|Duration
+|130 minutes
+|===
+
+==== Summary
+* Sprint 2 finished
+* Created merge requests for sprint 2
+* Sprint 3 planned (Announcement, Comment, small frontend changes)
+* Commit messages with comment of child branches (Only parent branches necessary)
+
+=== 2022-03-08
+
+[%autowidth, cols=2*]
+|===
+|Participants
+|Sheila Hautzmayer, Anna Hartl, Julian Hautzmayer, Thomas Stütz, Michael Bucek
+
+|From-To
+|14:50 - 17:00
+
+|Duration
+|130 minutes
+|===
+
+==== Summary
+* Discussed the project and what we have done
+
+image::images/protocol0308.jpeg[]
+
+
+=== 2022-03-21
+
+[%autowidth, cols=2*]
+|===
+|Participants
+|Sheila Hautzmayer, Anna Hartl, Matthias Böhm, Julian Hautzmayer
+
+|From-To
+|9:00 - 9:50
+
+|Duration
+|130 minutes
+|===
+
+==== Summary
+* Frontend should be formatted in the same way as Vinitor
+** List view for tickets
+** Detailed view for every ticket
+** Sidebar needs to be formatted
+** Colorful dots next to each ticket based on the state
+** Filtering and searching tickets
+* Distinction between user and admin needs to be implemented
+* Later: Send emails when a new ticket is created
+* Later: Admin publishes tickets which are approved by him
+
+
+
+=== 2022-03-21
+
+[%autowidth, cols=2*]
+|===
+|Participants
+|Sheila Hautzmayer, Anna Hartl, Thomas W. Stütz
+
+|From-To
+|14:50 - 15:00
+
+|Duration
+|10 minutes
+|===
+
+==== Summary
+
+* Welche Daten brauchen wir genau von Vinitor -> User
+
+* Schnittstelle, also wie bekomme ich den User
+* Link zu uns
+
+* Werbeseite steht groß da (also announcements fragen wie viel Sinn es ergibt)
+
+* Tickets dann halt
+
+* Sie sollen das in html ändern (statische Seite)?
+
+* Static Website generator(zb Hugo) -> nur auschecken, statische Websiten ändern, seite aktualisiert und wieder einchecken
+
+=== 2022-04-05
+
+[%autowidth, cols=2*]
+|===
+|Participants
+|Sheila Hautzmayer, Anna Hartl, Matthias Böhm
+
+|From-To
+|15:00 - 15:30
+
+|Duration
+|30 minutes
+|===
+
+==== Summary
+
+* Projekt darf zu Vicosu benannt werden
+
+* Sidebar wie bei Vinitor sollte gemacht werden
+
+* Statische Websiten -> werden nicht gebraucht, so stellt es sich Vinitor nicht vor, wie CMS mit Datenbankanbindung
+
+* Mit Julian Termin für Login ausmachen

@@ -15,6 +15,6 @@ class Vote {}
 class User {}
 class Upvote {}
 class Ticket {}
-class Owner_Comment {}
+class Comment {}
 
 @enduml

@@ -1,4 +1,4 @@
-= VINITOR - Support Platform
+= Vicosu
 Anna Hartl, Sheila Hautzmayer
 1.0
 :sourcedir: ../src/main/java

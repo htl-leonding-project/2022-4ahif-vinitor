@@ -1,4 +1,4 @@
-= Vinitor - Support Platform
+= Vicosu
 Anna Hartl, Sheila Hautzmayer
 1.0
 :sourcedir: ../src/main/java
@@ -31,10 +31,15 @@ To support them they want their self programmed website which
 
 === CLD 01
 
+
+.Click to see CLD 01
+[%collapsible]
+====
 [plantuml,align=left]
 ----
 include::plantuml/cld_vinitor.puml[]
 ----
+====
 
 === CLD 02
 
