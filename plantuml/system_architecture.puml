@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+frame Application{
+frame  Backend{
+
+        [Spring-Server]
+
+        database "MariaDB" {
+        }
+          }
+ frame Frontend{
+        [Webserver(Angular)]
+ }
+          }
+[User] -r-> [Webserver(Angular)]
+[Spring-Server] --> MariaDB
+[Webserver(Angular)] <-r-> [Spring-Server]
+@enduml

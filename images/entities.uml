@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>vinitor.support.entities</OriginalElement>
+  <nodes>
+    <node x="119.0" y="145.0">vinitor.support.entities.Ticket</node>
+    <node x="-176.0" y="181.0">vinitor.support.entities.AttachedFile</node>
+    <node x="48.0" y="481.0">vinitor.support.entities.TicketType</node>
+    <node x="161.0" y="-126.0">vinitor.support.entities.BaseEntity</node>
+    <node x="516.0" y="193.0">vinitor.support.entities.User</node>
+    <node x="263.0" y="457.0">vinitor.support.entities.TicketStatus</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="vinitor.support.entities.User" target="vinitor.support.entities.BaseEntity" relationship="GENERALIZATION">
+      <point x="0.0" y="-0.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="vinitor.support.entities.AttachedFile" target="vinitor.support.entities.BaseEntity" relationship="GENERALIZATION">
+      <point x="0.0" y="-0.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="vinitor.support.entities.Ticket" target="vinitor.support.entities.User" relationship="TO_ONE">
+      <point x="0.0" y="-0.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="vinitor.support.entities.Ticket" target="vinitor.support.entities.TicketType" relationship="TO_ONE">
+      <point x="0.0" y="-0.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="vinitor.support.entities.Ticket" target="vinitor.support.entities.TicketStatus" relationship="TO_ONE">
+      <point x="0.0" y="-0.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="vinitor.support.entities.Ticket" target="vinitor.support.entities.BaseEntity" relationship="GENERALIZATION">
+      <point x="0.0" y="-0.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="vinitor.support.entities.AttachedFile" target="vinitor.support.entities.Ticket" relationship="TO_ONE">
+      <point x="0.0" y="-0.0" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="273.5" y="261.0" />
+  <SelectedNodes>
+    <node>vinitor.support.entities.TicketStatus</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

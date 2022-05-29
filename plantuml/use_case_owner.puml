@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+
+left to right direction
+:Owner:
+
+rectangle Support-Platform{
+ Owner ---> (see statistics of survey and bug report)
+ Owner ---> (announce features and events)
+ Owner ---> (comment on bug reports)
+ Owner ---> (comment on questions)
+}
+@enduml

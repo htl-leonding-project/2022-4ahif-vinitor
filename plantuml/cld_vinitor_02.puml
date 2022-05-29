@@ -1,0 +1,20 @@
+@startuml
+Survey "n" --> "n" User
+
+Announcement "n" --> "n" User
+User "1" -left-> "n" Ticket
+Owner_Comment "n" -right-> "1" Ticket
+Ticket "1" <-- "*" Attached_File
+
+(Survey,User)..Vote
+(User, Announcement).. Upvote
+
+class Announcement {}
+class Survey {}
+class Vote {}
+class User {}
+class Upvote {}
+class Ticket {}
+'class Comment {}
+
+@enduml

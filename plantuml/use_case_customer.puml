@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/use-case-diagram
+
+left to right direction
+:Customer:
+
+rectangle Support-Platform{
+Customer -> (report bugs)
+Customer --> (ask questions)
+ Customer --> (watch tutorials and blogs)
+ Customer --> (take part in surveys)
+ Customer --> (comment and like)
+}
+@enduml

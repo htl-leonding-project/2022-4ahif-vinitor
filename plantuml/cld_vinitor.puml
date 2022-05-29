@@ -1,0 +1,29 @@
+@startuml
+Survey "n" --> "n" User
+
+Announcement "n" --> "n" User
+Upvote "1" -up-> "n" Bug
+Owner_Comment "n" -down-> "1" Bug
+
+User "n" --> "1" User_Message
+User "n"--> "1" Owner_Message
+User_Message  --|>  Message
+Owner_Message  --|> Message
+
+(Survey,User)..Vote
+(User, Announcement).. Upvote
+(User, Announcement).. User_Comment
+
+class Announcement {}
+class Survey {}
+class Vote {}
+class User {}
+class User_Message {}
+class Owner_Message {}
+class Message {}
+class Upvote {}
+class Bug {}
+class Owner_Comment {}
+class User_Comment {}
+
+@enduml
